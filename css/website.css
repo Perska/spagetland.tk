@@ -20,3 +20,6 @@ a:active {
     text-decoration: none;
     color: #0000FF;
 }
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
