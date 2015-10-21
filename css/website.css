@@ -26,3 +26,6 @@ header, section, footer, article {
     margin:5px;
     padding:3px;
 }
+body {
+    background-image: url("/texture.png");
+}
