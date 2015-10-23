@@ -1,7 +1,6 @@
 #c {
-  text-align: center;
+   text-align: center;
    background-color: #FFFFFF;
-   display:inline;
   }
 a:link {
     text-decoration: none;
@@ -30,9 +29,9 @@ header, section, footer, article {
 }
 body {
     background-image: url("/texture.png");
+    background-color: #CCCCCC;
 }
 a {
   background-color: #FFFFFF;
-  display:inline;
 }
 
