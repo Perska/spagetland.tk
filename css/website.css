@@ -26,6 +26,7 @@ header, section, footer, article {
     border:10px solid black;
     margin:5px;
     padding:3px;
+    background-color: #000000;
 }
 body {
     background-image: url("/texture.png");
