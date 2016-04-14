@@ -6,13 +6,13 @@
 </head>
 <body onload="loadImage()">
 <img id="ImageFr" src="null.png">
-<p id="txt"></p>
+<p id="c">
 <script>
 function loadImage() {
 	var imgname = document.URL.split("?")[1] //.split("i=")[1]
     var image = document.getElementById('ImageFr');
     image.src = imgname;
-	document.getElementById('txt').innerHTML="filename: "+imgname;
+	document.getElementById('c').innerHTML="filename: "+imgname;
 }
 </script>
 </body>
