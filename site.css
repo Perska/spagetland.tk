@@ -81,9 +81,9 @@ body {
 .naventry {
 	margin-left: auto;
 	margin-right: auto;
-	width: 25%;
+	width: 22%;
 	border-radius: 4px;
 	padding: 2;
-    background: #DEADED;
+    background: silver;
 	float: left;
 }
