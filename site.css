@@ -14,7 +14,12 @@ a:active {
 	font-family: heyGorgeous;
 	src: url("/heygorgeous.ttf");
 }
-* {
+p, a {
 	font-family: heyGorgeous;
 	font-size: 16;
+}
+
+h1 {
+	font-family: heyGorgeous;
+	font-size: 32;
 }
