@@ -15,7 +15,7 @@ a:active {
 	src: url("/heygorgeous.ttf");
 }
 p {
-	color: yellow;
+	color: navajowhite;
 	font-family: heyGorgeous;
 	font-size: 16;
 	-webkit-text-stroke-color: #DABFAD;
@@ -28,7 +28,7 @@ a {
 }
 
 h1 {
-	color: yellow;
+	color: cornflowerblue;
 	font-family: heyGorgeous;
 	font-size: 32;
 	text-align: center;
@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-	color: yellow;
+	color: green;
 	font-family: heyGorgeous;
 	font-size: 22;
 	-webkit-text-stroke-color: #DABFAD;
@@ -59,4 +59,8 @@ h3 {
 
 body {
 	background-color: #254052
+}
+
+.smol {
+	font-size: 7;
 }
