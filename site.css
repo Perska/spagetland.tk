@@ -1,0 +1,25 @@
+h1, p, a {
+	color: white;
+	-webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+a:link {
+	color: lightblue;
+}
+a:visited {
+	color: pink;
+}
+a:hover {
+	color: yellow;
+}
+a:active {
+	color: red;
+}
+@font-face {
+	font-family: heyGorgeous;
+	src: url("/heygorgeous.ttf");
+}
+* {
+	font-family: heyGorgeous;
+	font-size: 16;
+}
