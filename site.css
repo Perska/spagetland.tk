@@ -23,6 +23,7 @@ p {
 }
 
 a {
+	text-decoration: none;
 	font-family: heyGorgeous;
 	font-size: 16;
 }
