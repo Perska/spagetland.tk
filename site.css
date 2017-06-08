@@ -17,20 +17,28 @@ a:active {
 p, a {
 	font-family: heyGorgeous;
 	font-size: 16;
+	-webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
 }
 
 h1 {
 	font-family: heyGorgeous;
 	font-size: 32;
 	text-align: center;
+	-webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
 }
 h2 {
 	font-family: heyGorgeous;
-	font-size: 25;
+	font-size: 27;
+	-webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
 }
 h3 {
 	font-family: heyGorgeous;
-	font-size: 20;
+	font-size: 22;
+	-webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
 }
 
 .page {
@@ -40,5 +48,5 @@ h3 {
 }
 
 body {
-	background-color: #DABFAD
+	background-color: #254052
 }
