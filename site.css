@@ -76,15 +76,18 @@ body {
 	width: 95%;
 	border-radius: 6px;
 	padding: 4;
+	padding-top: 6;
+	padding-bottom: 6;
     background: #DABDED;
+	display: flex;
 }
 .naventry {
 	margin-left: auto;
 	margin-right: auto;
-	width: 22%;
+	width: 23%;
 	border-radius: 4px;
 	padding: 2;
-    background: #040404;
+    background: #404040;
 	float: left;
 	text-align: center;
 }
