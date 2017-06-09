@@ -2,7 +2,7 @@ a:link {
 	color: lightblue;
 }
 a:visited {
-	color: pink;
+	color: lightblue;
 }
 a:hover {
 	color: yellow;
@@ -103,10 +103,6 @@ body {
     background: #404040;
 	float: left;
 	text-align: center;
-}
-
-a.naventry:visited {
-	color: lightblue
 }
 
 .navbr {
