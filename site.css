@@ -57,6 +57,7 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	min-width: 500px;
 	border-radius: 8px;
 	padding: 8;
     background: indianred;
@@ -64,7 +65,9 @@ h3 {
 .banner {
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 8;
 	width: 75%;
+	min-width: 500px;
 	border-radius: 12px;
 	padding: 16;
 	background: mediumvioletred;
@@ -98,4 +101,23 @@ body {
     background: #404040;
 	float: left;
 	text-align: center;
+}
+.navbr {
+	clear: left;
+}
+
+@media (max-width: 800px) {
+	.navbar {
+		display: block;
+		width: 
+	}
+	
+	.naventry {
+		float: none;
+		margin-bottom: 4px;
+	}
+	
+	.navbr {
+		display: none;
+	}
 }
