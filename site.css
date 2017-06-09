@@ -124,6 +124,7 @@ body {
 	.naventry {
 		float: none;
 		margin-bottom: 4px;
+		width: 95%
 	}
 	
 	.navbr {
