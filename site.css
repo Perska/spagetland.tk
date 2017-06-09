@@ -105,6 +105,9 @@ body {
 .navbr {
 	clear: left;
 }
+.navon {
+	background: #808080;
+}
 
 @media (max-width: 599px) {
 	.banner {
