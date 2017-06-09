@@ -104,6 +104,10 @@ body {
 	float: left;
 	text-align: center;
 }
+a:visited.naventry {
+	color: lightblue;
+}
+
 .navbr {
 	clear: left;
 }
