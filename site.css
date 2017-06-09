@@ -106,7 +106,16 @@ body {
 	clear: left;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 599px) {
+	.banner {
+		min-width: initial;
+		width: 100%
+	}
+	.page {
+		min-width: initial;
+		width: 100%
+	}
+	
 	.navbar {
 		display: block;
 		width: 
