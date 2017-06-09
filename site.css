@@ -104,15 +104,16 @@ body {
 	float: left;
 	text-align: center;
 }
-a:visited.naventry {
-	color: lightblue;
+
+a.naventry:visited {
+	color: lightblue
 }
 
 .navbr {
 	clear: left;
 }
 .navon {
-	background: darkslategray;
+	background: #808080;
 }
 
 @media (max-width: 599px) {
