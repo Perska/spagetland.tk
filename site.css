@@ -40,7 +40,8 @@ h1 {
 h2 {
 	color: yellow;
 	font-family: heyGorgeous;
-	font-size: 26;
+	font-size: 24;
+	text-align: center;
 	-webkit-text-stroke-color: #DABFAD;
     -webkit-text-stroke-width: 1px;
 }
@@ -48,7 +49,7 @@ h2 {
 h3 {
 	color: green;
 	font-family: heyGorgeous;
-	font-size: 22;
+	font-size: 20;
 	-webkit-text-stroke-color: #DABFAD;
     -webkit-text-stroke-width: 1px;
 }
@@ -106,7 +107,7 @@ body {
 	clear: left;
 }
 .navon {
-	background: #808080;
+	background: darkslategray;
 }
 
 @media (max-width: 599px) {
