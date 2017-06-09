@@ -60,7 +60,8 @@ h3 {
 	width: 50%;
 	min-width: 500px;
 	border-radius: 8px;
-	padding: 8;
+	padding: 16;
+	padding-top: 8;
     background: indianred;
 }
 .banner {
