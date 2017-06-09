@@ -109,11 +109,11 @@ body {
 @media (max-width: 599px) {
 	.banner {
 		min-width: initial;
-		width: 100%
+		width: 98%
 	}
 	.page {
 		min-width: initial;
-		width: 100%
+		width: 98%
 	}
 	
 	.navbar {
