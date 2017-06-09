@@ -109,7 +109,7 @@ body {
 	clear: left;
 }
 .navon {
-	background: #808080;
+	background: #606060;
 }
 
 @media (max-width: 599px) {
@@ -119,7 +119,7 @@ body {
 	}
 	.page {
 		min-width: initial;
-		width: 90%
+		width: 88%
 	}
 	
 	.navbar {
