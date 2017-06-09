@@ -61,7 +61,7 @@ h3 {
 	min-width: 500px;
 	border-radius: 8px;
 	padding: 16;
-	padding-top: 8;
+	padding-top: 4;
     background: indianred;
 }
 .banner {
@@ -80,7 +80,7 @@ body {
 }
 
 .smol {
-	font-size: 10;
+	font-size: 8;
 }
 
 .navbar {
