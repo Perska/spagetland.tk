@@ -7,8 +7,8 @@ function loadComic(index){
 	if (index >= comics.length) {
 		index = 0;
 	}
-	document.getElementById("name") = comics[index].name;
-	document.getElementById("image") = comics[index].image;
+	document.getElementById("name").innerHTML = comics[index].name;
+	document.getElementById("image").src = comics[index].image;
 }
 
 function loadFile(file){
