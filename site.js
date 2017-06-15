@@ -8,7 +8,10 @@ function loadComic(index){
 		index = 0;
 	}
 	document.getElementById("name").innerHTML = comics[index].name;
-	document.getElementById("image").src = comics[index].image;
+	document.getElementById("image").src = "/comics/" + comics[index].image;
+	//to-do: add date display thing
+	document.getElementById("image").title = comics[index].alt;
+	
 }
 
 function loadFile(file){

@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="/site.css">
 		<script src="/site.js"></script>
 	</head>
-	<body>
+	<body onload="loadComic(0)">
 		<div class="banner">
 			<h1>Spaget Land</h1>
 			<div class="navbar">
@@ -21,7 +21,7 @@
 		<div class="page">
 			<noscript><p class="center">The site requires JavaScript to display the comics.</p></noscript>
 			<p class="center">Welcome to Spaget Land!</p>
-			<div class="comic" onload="loadComic(0)">
+			<div class="comic">
 				<h2 id="name"></h2>
 				<img id="image">
 			</div>

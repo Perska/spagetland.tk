@@ -118,6 +118,8 @@ body {
 
 .comic {
 	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .image {
 	margin-left: auto;
