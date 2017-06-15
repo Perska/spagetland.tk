@@ -1,15 +1,15 @@
 function loadComic(index){
 	if (index == undefined) { index = -1; }
 	var comics = JSON.parse(loadFile("/comic.json"));
-	if (index <= -1){
-		index = comics.length;
+	if (index <= 0){
+		index = comics.length - 1;
 	}
 	if (index >= comics.length) {
 		index = 0;
 	}
 	document.getElementById("name").innerHTML = comics[index].name;
 	document.getElementById("image").src = "/comics/" + comics[index].image;
-	//to-do: add date display thing
+	document.getElementById("date").innerHTML = comics[index].date;
 	document.getElementById("image").title = comics[index].alt;
 	
 }
