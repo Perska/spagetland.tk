@@ -1,6 +1,14 @@
 function loadComic(index){
+	if (index == undefined) { index = -1; }
 	var comics = JSON.parse(loadFile("/comic.json"));
-	alert(comics[0].name);
+	if (index <= -1){
+		index = comics.length;
+	}
+	if (index >= comics.length) {
+		index = 0;
+	}
+	document.getElementById("name") = comics[index].name;
+	document.getElementById("image") = comics[index].image;
 }
 
 function loadFile(file){

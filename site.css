@@ -116,6 +116,14 @@ body {
 	background: #606060;
 }
 
+.comic {
+	width: 95%;
+}
+.image {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 @media (max-width: 599px) {
 	.banner {
 		min-width: initial;
