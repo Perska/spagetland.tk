@@ -25,7 +25,7 @@ function fillArchive(){
 		for(var i=0;i<c;i++){
 			var comic = getComic(i);
 			var thing = document.createElement("div");
-			div.innerHTML = '<a href="/comic?i='+i+'">#'+i+' '+comic.name+'</a>'
+			thing.innerHTML = '<a href="/comic?i='+i+'">#'+i+' '+comic.name+'</a>'
 			list.appendChild(thing);
 		}
 	}
