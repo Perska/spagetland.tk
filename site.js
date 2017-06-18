@@ -45,7 +45,7 @@ function getComic(index){
 }
 
 function comicCount(){
-	return comics.length:
+	return comics.length;
 }
 
 function loadFile(file){
