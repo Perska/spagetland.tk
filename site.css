@@ -20,7 +20,6 @@ p {
 	font-size: 16;
 	-webkit-text-stroke-color: #DABFAD;
     -webkit-text-stroke-width: 1px;
-	white-space: pre-wrap;
 }
 
 a {
@@ -80,7 +79,7 @@ body {
 	background-color: #254052
 }
 
-.smol, #date {
+.smol {
 	font-size: 8;
 }
 
@@ -125,6 +124,14 @@ body {
 #image {
 	display: block;
 	margin: auto;
+}
+
+#date {
+	font-size: 10;
+}
+
+#description {
+	white-space: pre-wrap;
 }
 
 @media (max-width: 599px) {
