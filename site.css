@@ -79,7 +79,7 @@ body {
 	background-color: #254052
 }
 
-.smol {
+.smol, #date {
 	font-size: 8;
 }
 

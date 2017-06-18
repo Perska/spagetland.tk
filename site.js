@@ -11,7 +11,7 @@ function loadComic(index){
 	document.getElementById("image").src = "/comics/" + comics[index].image;
 	document.getElementById("date").innerHTML = comics[index].date;
 	document.getElementById("image").title = comics[index].alt;
-	
+	document.getElementById("description").innerHTML = comics[index].description;
 }
 
 function loadFile(file){
