@@ -63,6 +63,7 @@ h3 {
 	padding: 16;
 	padding-top: 4;
     background: indianred;
+	white-space: pre-wrap;
 }
 .banner {
 	margin-left: auto;
