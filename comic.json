@@ -1,10 +1,11 @@
 [
 	{
-		"name": "No comics yet!",
-		"image": "mrplaceholder.png",
-		"date": "TBD",
-		"alt": "There's \"alt text\" here! Wow!",
-		"description": "Hey! There are no comics yet but that's going to change at one point!\n\nSee you sometime!\n-Perska",
+		"name": "The \"First\" Comic",
+		"image": "thefirst.png",
+		"date": "3rd of October, 2017",
+		"precisedate": "2017-10-03T17:44:46+03:00",
+		"alt": "Here goes nothing... Expect to see a lot of art shifts and site redesigns.",
+		"description": "Hey! Welcome to the comic which will probably get one comic per month! (or not)\n\nNormally webcomics have more than one panel on the first comic,\nbut I'm... Uhh, actually, I'm not sure why I did so.",
 		"type": "this is not used as of now, but it would be used for sorting, I guess"
 	}
 ]
