@@ -1,4 +1,8 @@
-var comics = JSON.parse(loadFile("/comic.json"));
+var comics;
+setTimeout (function(){
+	//this is so browsers don't complain about synchronous XMLHttpRequest. I think.
+	comics = JSON.parse(loadFile("/comic.json");
+});
 function loadComic(index){
 	if (index == undefined){
 		index = getParameterByName("i");
