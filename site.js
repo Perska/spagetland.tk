@@ -28,7 +28,7 @@ function fillArchive(){
 	if (document.getElementById("archivelist") != null){
 		list = document.getElementById("archivelist");
 		c = comicCount();
-		for(var i=0;i<c;i++){
+		for(var i=1;i<c;i++){
 			var comic = getComic(i);
 			var thing = document.createElement("div");
 			thing.innerHTML = '<a href="/comic?i='+i+'">Comic '+i+': '+comic.name+'</a>'
