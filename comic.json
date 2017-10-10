@@ -6,7 +6,7 @@
 		"precisedate": "1930-01-01T00:00:00Z",
 		"alt": "I don't have a joke for this mouseover text.",
 		"description": "Wut.\nWhat are you doing here?!",
-		"type": "[insert funny 404 joke here]"
+		"type": "not-normal"
 	},
 	{
 		"name": "The \"First\" Comic",
@@ -15,6 +15,15 @@
 		"precisedate": "2017-10-03T17:44:46+03:00",
 		"alt": "Here goes nothing... Expect to see a lot of art shifts and site redesigns.",
 		"description": "Hey! Welcome to the comic which will probably get one comic per month! (or not)\n\nNormally webcomics have more than one panel on the first comic,\nbut I'm... Uhh, actually, I'm not sure why I did so.",
-		"type": "Spaget Land"
+		"type": "other"
+	},
+	{
+		"name": "To the Sea",
+		"image": "tothesea.png",
+		"date": "Undecided",
+		"precisedate": "0000-00-00T00:00:00+00:00",
+		"alt": "So he just set out on the sea without food, water and nothing to keep himself busy? What an idiot.",
+		"description": "Oh hi.\nActually first comic.\n\nThe orange colored guy sets out to the sea to find uncharted isles.\nHe's not going to get far, is he?",
+		"type": "spagetmain"
 	}
 ]
