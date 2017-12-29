@@ -4,7 +4,7 @@
 		"image": "",
 		"date": "The Beginning of Time",
 		"precisedate": "1970-01-01T00:00:00Z",
-		"alt": "I don't have a joke for this mouseover text.",
+		"mouse": "I don't have a joke for this mouseover text.",
 		"description": "Wut.\nWhat are you doing here?!",
 		"type": "not-normal"
 	},
@@ -13,7 +13,7 @@
 		"image": "thefirst.png",
 		"date": "3rd of October, 2017",
 		"precisedate": "2017-10-03T17:44:46+03:00",
-		"alt": "Here goes nothing... Expect to see a lot of art shifts and site redesigns.",
+		"mouse": "Here goes nothing... Expect to see a lot of art shifts and site redesigns.",
 		"description": "Hey! Welcome to the comic which will probably get one comic per month! (or not)\n\nNormally webcomics have more than one panel on the first comic,\nbut I'm... Uhh, actually, I'm not sure why I did so.\n\nEDIT (15th of October 2017):\nI'm leaving this here so future me can trash talk past me's choices of having a random scribble be the first comic.",
 		"type": "other"
 	},
@@ -22,7 +22,7 @@
 		"image": "tothesea.png",
 		"date": "10th of October, 2017",
 		"precisedate": "2017-10-10T17:40:31+03:00",
-		"alt": "So he just set out on the sea without food, water and nothing to keep himself busy? What an idiot.",
+		"mouse": "So he just set out on the sea without food, water and nothing to keep himself busy? What an idiot.",
 		"description": "Oh hi.\nActually first comic.\n\nThe orange colored guy sets out to the sea to find uncharted isles.\nHe's not going to get far, is he?\n\nalso yes i know art style looks bad\n(just in case there are more than 0 readers.)",		"type": "spagetmain"
 		"type": "spagetmain-pro"
 	},
@@ -30,8 +30,8 @@
 		"name": "The Island",
 		"image": "theisland.png",
 		"date": "17th of October, 2017",
-		"precisedate": "2017-10-10T16:45:12+03:00",
-		"alt": "Um, yeah, that \"island\" doesn't have any trees or anything important, how are you supposed to survive there?",
+		"precisedate": "2017-10-17T16:45:12+03:00",
+		"mouse": "Um, yeah, that \"island\" doesn't have any trees or anything important, how are you supposed to survive there?",
 		"description": "Oh wow, he actually found somethi- actually lemme check...\nYup, that's an uncharted island, if you ask me!"
 		"type": "spagetmain-pro"
 	},
@@ -39,10 +39,19 @@
 		"name": "A strange sight",
 		"image": "themysteriousthingicantthinkanamefor.png",
 		"date:" "6th of November, 2017",
-		"precisedate": "2017-10-10T19:37:30+02:00",
-		"alt": "Where'd you get a shirt and a new pair of pants?!",
+		"precisedate": "2017-11-06T19:37:30+02:00",
+		"mouse": "Where'd you get a shirt and a new pair of pants?!",
 		"description": "Mr. Orange Guy whateverhisnameis lands (and somehow sinks the raft) on the shore.\nWhat could await on this strange island?"
 		"type": "spagetmain-pro"
 		"_yowza_": "That's a nice filename you've got there."
+	},
+	{
+		"name": "A mysterious stone structure",
+		"image": "mysterystonestructure.png",
+		"date": "29th of December, 2017",
+		"precisedate": "2017-12-29T17:03:13+02:00",
+		"mouse": "This guy is WEIRD. Look at his hair. Where did it come from?!",
+		"description": "Look, a stone structure that's probably there for no reason!\nOh and I guess there's a pit there too.\n\nI'M NOT LATE FOR THE DECEMBER COMIC SO EVERYTHING'S FINE- I mean what",
+		"type": "spagetmain-pro"
 	}
 ]

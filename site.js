@@ -19,7 +19,7 @@ function loadComic(index){
 		document.getElementById("image").src = "/comics/" + comics[index].image;
 		document.getElementById("date").innerHTML = comics[index].date;
 		//FYI, there is also a date stored in the ISO 8601 format under the variable precisedate
-		document.getElementById("image").title = comics[index].alt;
+		document.getElementById("image").title = comics[index].mouse;
 		document.getElementById("description").innerHTML = comics[index].description;
 	}
 }
