@@ -21,6 +21,7 @@ function loadComic(index){
 		//FYI, there is also a date stored in the ISO 8601 format under the variable precisedate
 		document.getElementById("image").title = comics[index].mouse;
 		document.getElementById("description").innerHTML = comics[index].description;
+		var navbar = document.createElement("div");
 	}
 }
 
