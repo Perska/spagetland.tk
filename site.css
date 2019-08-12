@@ -158,7 +158,8 @@ body {
 	
 	.naventry {
 		float: none;
-		margin-bottom: 4px;
+		margin-bottom: 8px;
+		margin-top: 8px;
 		width: 95%
 	}
 	
