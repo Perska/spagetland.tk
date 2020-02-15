@@ -1,4 +1,5 @@
 var comics = JSON.parse(loadFile("/comic.json"));
+var loadedComic = -1;
 function loadComic(index){
 	if (index == undefined){
 		index = getParameterByName("i");
@@ -22,8 +23,43 @@ function loadComic(index){
 		document.getElementById("image").title = comics[index].mouse;
 		document.getElementById("description").innerHTML = comics[index].description;
 		var navbar = document.createElement("div");
+		loadedComic = index;
 	}
 }
+
+function navComic(index){
+	if (index!=undefined){
+		window.location.href = "/comic?i="+index;
+	}
+}
+
+function firstComic(){
+	navComic(1);
+}
+
+function prevComic(){
+	var inComic = loadedComic - 1;
+	if (inComic >= 1){
+		navComic(inComic);
+	}
+}
+
+function randComic(){
+	var roll = getRandomIntInclusive(1, comics.length - 1);
+	navComic(roll);
+}
+
+function nextComic(){
+	var inComic = loadedComic + 1;
+	if (inComic < comics.length){
+		navComic(inComic);
+	}
+}
+
+function latestComic(){
+	navComic(comics.length - 1);
+}
+
 
 function fillArchive(){
 	if (document.getElementById("archivelist") != null){
@@ -73,3 +109,10 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 //from https://stackoverflow.com/a/901144
+
+function getRandomIntInclusive(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
+}
+//from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
